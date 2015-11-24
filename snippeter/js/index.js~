@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$('#image1').magnificPopup({
+    	items: {
+      	src: '/snippeter/img/image1.jpg'
+    	},
+    	type: 'image'
+	});
+
+	$('#image2').magnificPopup({
+    	items: {
+      	src: '/snippeter/img/image2.jpg'
+    	},
+    	type: 'image'
+	});
+
+	$('#image3').magnificPopup({
+    	items: {
+      	src: '/snippeter/img/image3.jpg'
+    	},
+    	type: 'image'
+	});
+
+});

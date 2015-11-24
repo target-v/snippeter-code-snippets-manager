@@ -1,0 +1,238 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Snippeter - Code Snippets Manager</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="Alen Masic">
+	<meta name="copyright" content="Alen Masic">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2014-02-15T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+
+	
+	
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#EFEFEF;color:#1C140D;}
+		::-moz-selection{background:#CBE86B;color:#1C140D;}
+		::selection{background:#CBE86B;color:#1C140D;}
+		#documenter_sidebar #documenter_logo{background-image:url();}
+		a{color:#889C48;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #CBE86B, #889C48);
+			  background-image: -ms-linear-gradient(top, #CBE86B, #889C48);
+			  background-image: -webkit-gradient(linear, 0 0, 0 CBE86B%, from(#F2E9E1), to(#889C48));
+			  background-image: -webkit-linear-gradient(top, #CBE86B, #889C48);
+			  background-image: -o-linear-gradient(top, #CBE86B, #889C48);
+			  background-image: linear-gradient(top, #CBE86B, #889C48);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CBE86B', endColorstr='#889C48', GradientType=0);
+			  border-color: #889C48 #889C48 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #CBE86B #CBE86B #bfbfbf;
+		  background-color: #889C48;
+		}
+		hr{border-top:1px solid #CCCCCC;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#F2E9E1;color:#1C140D;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #FFF6ED;-moz-text-shadow:1px 1px 0px #FFF6ED;text-shadow:1px 1px 0px #FFF6ED;}
+		#documenter_sidebar ul{border-top:1px solid #D1C9C2;}
+		#documenter_sidebar ul a{border-top:1px solid #FFF6ED;border-bottom:1px solid #D1C9C2;color:#1C140D;}
+		#documenter_sidebar ul a:hover{background:#CBE86B;color:#1C140D;border-top:1px solid #CBE86B;}
+		#documenter_sidebar ul a.current{background:#CBE86B;color:#1C140D;border-top:1px solid #CBE86B;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-snippeter-code-snippets-manager">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#installation" title="Installation">Installation</a></li>
+			<li><a href="#usage" title="Usage">Usage</a></li>
+			<li><a href="#admin_panel" title="Admin Panel">Admin Panel</a></li>
+			<li><a href="#updating" title="Updating">Updating</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright Alen Masic 2014<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Snippeter - Code Snippets Manager</h1>
+	
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>created: 02/09/2013</li>
+	<li>latest update: 08/04/2014</li>
+	<li>by: Alen Masic</li>
+	<li><a href="http://codecanyon.net/user/alenn">codecanyon.net/user/alenn</a></li>
+	<li>email: <a href="mailto:&#97;&#108;&#101;&#110;&#110;&#46;&#109;&#97;&#115;&#105;&#99;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#97;&#108;&#101;&#110;&#110;&#46;&#109;&#97;&#115;&#105;&#99;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Thank you</p>
+	</section>
+	
+	<section id="installation">
+	<div class="page-header"><h3>Installation</h3><hr class="notop"></div>
+<p>
+	To properly install Snippeter follow these steps:</p>
+<p>
+	- Extract Snippeter archive</p>
+<p>
+	- Create database for Snippeter</p>
+<p>
+	- Import all tables in <strong>database.sql</strong> which you can find in<strong> &#39;Database&#39;</strong> folder</p>
+<p>
+	- Upload all files to server with<strong> &#39;read&#39;</strong> permissions</p>
+<p>
+	- Set <strong>&#39;write&#39;</strong> permission to<strong> &#39;Tmp&#39;</strong> folder</p>
+<p>
+	&nbsp;</p>
+<p>
+	After you completed previous steps now you need to tweak some files so script can connect to your server and database.</p>
+<p>
+	Open &#39;connect.php&#39; inside &#39;Database&#39; folder. File looks like this:</p>
+<pre class="prettyprint lang-php linenums">
+&lt;?php
+
+&nbsp;&nbsp; &nbsp;$host = &#39;localhost&#39;;
+&nbsp;&nbsp; &nbsp;$username = &#39;root&#39;;
+&nbsp;&nbsp; &nbsp;$password = &#39;&#39;;
+&nbsp;&nbsp; &nbsp;$database = &#39;snippeter&#39;;
+
+&nbsp;&nbsp; &nbsp;$pageRoot = &#39;http://example.com&#39;; // without &quot; / &quot; at the end
+&nbsp;&nbsp; &nbsp;$yourEmail = &#39;yourEmail@gmail.com&#39;;
+    $numUsers = 20; // number of users per page in admin panel
+&nbsp;&nbsp; &nbsp;$numSnip = 20; // number of snippets per page in admin panel
+
+&nbsp;&nbsp; &nbsp;$con = new mysqli($host, $username, $password, $database);
+
+&nbsp;&nbsp; &nbsp;if (mysqli_connect_errno()) {
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; printf(&quot;Connect failed: %s\n&quot;, &quot;Server error&quot;);
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; exit();
+&nbsp;&nbsp; &nbsp;}
+&nbsp;&nbsp; &nbsp;
+?&gt;</pre>
+<p>
+	Enter data from your server in corresponding fields, host, username, password and database.</p>
+<p>
+	<strong>&#39;$pageRoot&#39;</strong> is web address where you uploaded Snippeter. So for example if your domain is <strong>www.example.com</strong> and you uploaded the script in folder called<strong> &#39;snippeter&#39;</strong> then your <strong>&#39;$pageRoot&#39;</strong> will look like this:</p>
+<p>
+	<strong>$pageRoot = &#39;http://example.com/snippeter&#39;</strong></p>
+<p>
+	<strong>&#39;$yourEmail&#39;</strong> is email which users see when they register to Snippeter, make sure it is valid email.</p>
+<p>
+	Now all installation steps are completed.</p>
+
+</section>
+<section id="usage">
+	<div class="page-header"><h3>Usage</h3><hr class="notop"></div>
+<p>
+	These are some basic tips in order to get you up and running with Snippeter.<br>
+	<br>
+	- So after you successfully installed script open index.php and you will be presented with main page where you can register or login.<br>
+	<br>
+	- <strong>Registration</strong> needs only basic information afterwards you need to verify your account by following instructions in email which you received after successful registration.</p>
+<p>
+	- After you logged in, you&#39;ll see blank template. To <strong>add</strong> new snippet click on &quot; + &quot;sign in bottom left corner. Fill in needed information like name, description, snippet, tags and group.</p>
+<p>
+	- Snippets can be categorized into groups. To create a <strong>group</strong> click on folder sign in bottom left corner, give it a name and click Save.<br>
+	<br>
+	- You can <strong>remove</strong> the snippet by hovering with your mouse over snippet name and by pressing od &quot;trash&quot; icon<br>
+	<br>
+	- Snippets can also be categorized with <strong>tags</strong><br>
+	<br>
+	- If you made a mistake, you can <strong>edit</strong> your snippet by hovering with your mouse over it and selecting &quot;edit&quot; icon.<br>
+	<br>
+	- <strong>Sublime Text </strong>is one of the most popular text editor for programmers, so I decided to make <strong>Export</strong> option for Sublime Text. Now you can have all your snippets in Snippeter exported for Sublime Text. When you export all snippets at once you can&#39;t assign tabTrigger for snippets, but if you decide to download one at the time then you can assign tabTrigger. TabTrigger is word which brings your snippet to text editor after you type it and press Tab key.<br>
+	<br>
+	- Snippets can be also exported in <strong>JSON</strong> file and plain text.<br>
+	<br>
+	- <strong>Importing</strong> snippets is simple as clicking on Import option and selecting valid JSON file which contains snippets.<br>
+	<br>
+	- All snippets can be <strong>Public</strong> and <strong>Private</strong>. Public snippet get their own link which you can share with others.<br>
+	<br>
+	- For quick snippet finding press Ctrl + F on your keyboard and you&#39;ll bring the <strong>search bar</strong> in focus, after you found your snippet press ENTER and snippet on top will be opened.<br>
+	<br>
+	- <strong>Settings</strong> dialog you can change <strong>Font</strong>, <strong>Font size</strong>, disable or enable <strong>Line numbers</strong>, email and password.<br>
+	<br>
+	- Also you can use <strong>Copy</strong> option to send current snippet to clipboard or <strong>Code</strong> option to get raw code in new tab.</p>
+
+</section>
+<section id="admin_panel">
+	<div class="page-header"><h3>Admin Panel</h3><hr class="notop"></div>
+<p>
+	Admin panel contains:</p>
+<p>
+	- Dashboard</p>
+<p>
+	- Snippets</p>
+<p>
+	- Users list</p>
+<p>
+	- Banned users list</p>
+<p>
+	- Settings</p>
+<p>
+	To access Admin panel run <strong>admin-login.php</strong></p>
+<p>
+	&nbsp;</p>
+<p>
+	<strong>Dashboard</strong> gives you basic information about users and snippets. You can see how many users registered to your site, how many of them are online, how many snippets are online etc.</p>
+<p>
+	<strong>Snippets</strong> gives you full controll over all snippets on your server. You can preview, edit and delete every snippet.</p>
+<p>
+	<strong>Users list</strong> gives you control over your users. You can manually Add new user, delete it or ban it. Admins can also use search bar to quickly find specific user.</p>
+<p>
+	<strong>Banned users list</strong> gives you a list of users who are banned by admin. Those users can&#39;t login until you unban them.</p>
+<p>
+	<strong>Settings section</strong> gives you abillity to change your password and email.</p>
+
+</section>
+<section id="updating">
+	<div class="page-header"><h3>Updating</h3><hr class="notop"></div>
+<p>
+	Updates will be released to fix bugs and/or to bring new features to Snippeter. To successfully update your existing installation follow these steps:</p>
+<p>
+	- Download and extract new archive from CodeCanyon</p>
+<p>
+	- Check for changes in <strong>database/connect.php</strong>, if there is no changes then <strong>do not</strong> copy this file to your existing installation</p>
+<p>
+	- Copy all files to your server</p>
+<p>
+	- Test installation</p>
+</section>
+
+	</div>
+</body>
+</html>
